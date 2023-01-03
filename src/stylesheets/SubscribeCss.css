@@ -1,0 +1,124 @@
+.subscribe h3 {
+  color: #1f9fd9;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subscribe p {
+  color: #504f4f;
+  font-size: 18px;
+  text-align: center;
+}
+
+.subscribe .subButton {
+  text-align: center !important;
+}
+
+.subButton button {
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.25);
+  border-radius: 36px;
+  padding: 0 30px;
+  font-size: 16px;
+  background-color: #196497;
+}
+
+.subButton button:focus,
+.subButton button:hover,
+.subButton button:active {
+  background-color: #196497 !important;
+  outline: none !important;
+}
+.forminput {
+  text-align: center;
+  position: relative !important;
+}
+
+.forminput input,
+.forminput label {
+  border: none;
+}
+
+.forminput input {
+  height: 60px;
+  border-top: none;
+  font-size: 20px;
+  font-weight: 300;
+  border-radius: 2px;
+  margin: 0;
+  background: rgba(0, 0, 0, 0);
+  overflow-x: hidden;
+  outline: 0 !important;
+  /* white-space: nowrap; */
+  border-bottom: 3px solid #000;
+}
+
+.forminput label {
+  position: absolute;
+  top: 20px;
+  padding: 7px 0 0 0;
+  transition: all 200ms;
+  opacity: 0.5;
+  left: 38%;
+  font-size: 18px;
+}
+
+.forminput input:focus + label,
+.forminput input:valid + label {
+  font-size: 20px;
+  transform: translate3d(0, -85%, 0);
+  opacity: 1;
+  outline: 0 !important;
+}
+#snackbar {
+  background-color: #eabb14;
+  width: 600px;
+  padding: 15px;
+  color: #000;
+  margin-left: 0 !important;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  z-index: 99999999 !important;
+}
+
+@media (max-width: 700px) {
+  .subscribe input {
+    width: 50% !important;
+  }
+  .subscribe label {
+    left: 25%;
+    font-size: 15px;
+  }
+  .forminput input:focus + label,
+  .forminput input:valid + label {
+    font-size: 16px;
+  }
+
+  #snackbar {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
+.alert-danger {
+  width: 500px !important;
+  margin: auto !important;
+  font-weight: bold !important;
+  top: 30px !important;
+  text-align: center !important;
+}
+
+@media (max-width: 700px) {
+  .alert-danger {
+    width: 100% !important;
+  }
+}
+.closesubalertybtn {
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  color: #000;
+  cursor: pointer;
+}

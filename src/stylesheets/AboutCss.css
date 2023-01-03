@@ -1,0 +1,100 @@
+.about-fly h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #196497;
+}
+.about-fly p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 31px;
+  text-align: center;
+
+  color: #196497;
+}
+.aboutCol {
+  position: relative;
+}
+.light2 {
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  left: -16px;
+  margin-left: -3px;
+  top: -20px;
+}
+.line1 {
+  border-left: 5px solid #196497;
+  border-bottom: 5px solid #196497;
+  height: 150px;
+  position: absolute;
+  left: -44px;
+  margin-left: -3px;
+  top: -20px;
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .line1 {
+    display: none;
+  }
+  .light2 {
+    display: none;
+  }
+}
+
+@media (max-width: 880px) and (min-width: 601px) {
+  .line1 {
+    border-left: 5px solid #196497;
+    border-bottom: 5px solid #196497;
+    height: 150px;
+    position: absolute;
+    left: -27px;
+    margin-left: -3px;
+    top: 20px;
+    width: 200px;
+  }
+}
+/*****************why section**********************************/
+.why {
+  margin-top: 125px;
+}
+.why h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 41px;
+
+  color: #616161;
+}
+
+.why p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 31px;
+
+  color: #196497;
+}
+.why h4 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 125.04%;
+  /* identical to box height, or 50px */
+
+  text-align: center;
+  letter-spacing: 0.37em;
+  text-indent: 5px;
+
+  color: #196497;
+}

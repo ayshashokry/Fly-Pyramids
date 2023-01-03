@@ -1,0 +1,63 @@
+.reach-section h5 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 137%;
+  /* or 48px */
+
+  letter-spacing: -0.02em;
+
+  color: #1f9fd9;
+}
+
+.reach-section p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 137%;
+  /* or 27px */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+.infofly {
+  font-family: 'Roboto' !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+
+  letter-spacing: -0.02em !important;
+  flex-wrap: nowrap;
+  color: #000000;
+}
+
+.light3 {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  left: -20px;
+  margin-left: -3px;
+  top: 0px;
+}
+.line3 {
+  /* border-left: 2px solid #196497;
+
+  height: 390px;
+  position: absolute;
+  left: 20px;
+  margin-left: -3px;
+  top: 105px; */
+  top: -50px;
+  position: absolute;
+  background-color: #196497;
+  width: 110px;
+  height: 10px;
+}
+
+.mymap iframe {
+  width: 100%;
+  height: 70vh;
+}

@@ -1,0 +1,212 @@
+.observe h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 41px;
+
+  color: #1f9fd9;
+}
+
+.observe p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 27px;
+
+  color: #196497;
+}
+
+.observe .txt {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+
+  text-align: center;
+
+  color: #196497;
+}
+.sora {
+  position: relative;
+  z-index: 968;
+  overflow: hidden;
+}
+.myoverlayy {
+  position: absolute;
+  background: #75bff4;
+  width: 100%;
+  right: 10%;
+  top: -8px;
+  bottom: -20px;
+  z-index: 99;
+  height: auto;
+}
+.myoverlayfly {
+  position: absolute;
+  background: #196497;
+  width: 90%;
+  left: 5%;
+  top: 10px;
+  bottom: -10px;
+  z-index: -10;
+  height: 60%;
+  overflow: hidden;
+}
+.myflyimg {
+  height: 55%;
+  width: 90%;
+  position: relative;
+  z-index: 968;
+  overflow: hidden;
+}
+.title1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #75bff4;
+}
+.subtxt1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 27px;
+
+  color: #196497;
+}
+
+.description {
+  position: relative;
+}
+
+.line {
+  border-left: 2px solid #196497;
+
+  height: 420px;
+  position: absolute;
+  left: 20px;
+  margin-left: -3px;
+  top: 105px;
+}
+.light {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  left: 8px;
+  margin-left: -3px;
+  top: 75px;
+}
+
+.myoverlay2 {
+  position: absolute;
+  background: #196497;
+  width: 100%;
+  left: 5%;
+  top: 10px;
+  bottom: 7px;
+  z-index: -10;
+  height: auto;
+  overflow: hidden;
+}
+.myoverlay3 {
+  position: absolute;
+  background: #0d3d5f;
+  width: 100%;
+  right: 10%;
+  top: -8px;
+  bottom: -20px;
+  z-index: 99;
+  height: auto;
+}
+.myoverlay4 {
+  position: absolute;
+  background: #d5ecfd;
+
+  width: 100%;
+  left: 5%;
+  top: 10px;
+  bottom: 25px;
+  z-index: -10;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .myoverlayy {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .myoverlay2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .myoverlayfly {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  .myflyimg  {
+    width: 100%;
+    top: 0;
+    right: 0;left: 0;bottom: 0;
+  }
+
+  .myoverlay3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .myoverlay4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.mainTitle {
+  font-family: 'Roboto' !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+
+  letter-spacing: -0.02em !important;
+  /* display: contents; */
+
+  color: #196497;
+}
+
+.linemail {
+  border-left: 2px solid #196497;
+
+  height: 350px;
+  position: absolute;
+  left: 20px;
+  margin-left: -3px;
+  top: 105px;
+}

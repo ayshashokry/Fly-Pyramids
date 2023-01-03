@@ -1,0 +1,252 @@
+.homeheader .headerTexts {
+  padding: 27% 0 20% 22%;
+}
+.servicesheader .headerTexts,
+.aboutheader .headerTexts {
+  padding: 45% 0 20% 25%;
+}
+.homeheader {
+  overflow-x: hidden !important;
+}
+.homeheader h2 {
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Open Sans';
+  color: #196497;
+  font-size: 40px;
+}
+
+.homeheader h4 {
+  color: #1f9fd9;
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Open Sans';
+  padding-top: 100px;
+}
+
+.homeheader img {
+  width: 100% !important;
+  padding-top: 50px;
+}
+
+.servicesheader img,
+.aboutheader img,
+.reachusHeader img {
+  width: 100% !important;
+  /* padding-top: 50px; */
+  height: 100vh;
+}
+
+.servicesheader h2 {
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Open Sans';
+  color: #196497;
+  font-size: 50px;
+}
+
+.servicesheader h4 {
+  color: #000;
+  font-weight: 600;
+  font-style: normal;
+  font-family: 'Open Sans';
+  padding-top: 50px;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.servicesheader .HeaderHR {
+  height: 10px;
+  width: 130px;
+  background-color: #196497;
+}
+
+.aboutheader {
+  margin-bottom: 100px;
+}
+
+.reachusHeader .reachheaderTexts {
+  padding: 40% 20% 20% 0;
+}
+.reachusHeader h2 {
+  color: #1f9fd9;
+  font-weight: bold;
+  font-size: 50px;
+}
+.aboutheader h2 {
+  color: #1f9fd9;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.aboutheader .HeaderHR,
+.reachusHeader .reachHeaderHR {
+  background-color: #eabb14;
+  height: 10px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+@media (max-width: 500px) and (min-width: 330px) {
+  .homeheader,
+  .servicesheader,
+  .aboutheader,
+  .reachusHeader {
+    height: 100vh !important;
+  }
+}
+@media (max-width: 329px) {
+  .homeheader,
+  .servicesheader,
+  .aboutheader,
+  .reachusHeader {
+    height: auto !important;
+  }
+}
+@media (max-width: 670px) {
+  .homeheader .headerTexts {
+    padding: 35% 5% 0 5% !important;
+  }
+
+  .homeheader h2 {
+    font-size: 30px;
+  }
+
+  .homeheader h4 {
+    padding-top: 30px;
+    font-size: 20px;
+  }
+
+  .servicesheader .headerTexts {
+    padding: 27% 5% 0 5% !important;
+  }
+  .servicesheader img {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .servicesheader h2 {
+    font-size: 25px;
+  }
+
+  .servicesheader h4 {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+
+  .aboutheader .headerTexts {
+    padding: 25% 5% 0 5% !important;
+  }
+  .aboutheader img {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .aboutheader h2 {
+    font-size: 25px;
+  }
+
+  .reachusHeader .reachheaderTexts {
+    padding: 15% 5% 0 5% !important;
+  }
+  .reachusHeader img {
+    height: auto;
+    padding-top: 50px;
+    width: 100vw !important;
+  }
+
+  .reachusHeader h2 {
+    font-size: 35px;
+    padding: 0 30px;
+  }
+  .reachusHeader .reachHeaderHR {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 993px) and (min-width: 670px) {
+  .homeheader .headerTexts {
+    padding: 10% 5% 0 5% !important;
+  }
+  .homeheader .headerimgg,
+  .servicesheader .headerimgg {
+    margin: auto !important;
+    text-align: center !important;
+    padding-right: 70px;
+  }
+
+  .homeheader h2 {
+    font-size: 30px;
+  }
+
+  .homeheader h4 {
+    padding-top: 30px;
+    font-size: 20px;
+  }
+
+  .servicesheader .headerTexts {
+    padding: 15% 5% 0 5% !important;
+  }
+  .servicesheader img {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .servicesheader h2 {
+    font-size: 25px;
+  }
+
+  .servicesheader h4 {
+    padding-top: 15px;
+    font-size: 15px;
+  }
+
+  .aboutheader .headerTexts {
+    padding: 15% 5% 0 5% !important;
+  }
+
+  .aboutheader h2 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 993px) and (min-width: 770px) {
+  .reachusHeader .reachheaderTexts {
+    padding: 20% 5% 0 5% !important;
+  }
+  .reachusHeader img {
+    height: 100vh;
+    padding-top: 90px;
+    width: 100vw !important;
+  }
+
+  .reachusHeader h2 {
+    font-size: 25px;
+  }
+  .reachusHeader .reachHeaderHR {
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 770px) {
+  .reachusHeader {
+    height: 100vh !important;
+  }
+
+  .reachusHeader .row {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .reachusHeader .reachheaderTexts {
+    padding: 25% 5% 10% 5% !important;
+  }
+  .reachusHeader img {
+    height: auto;
+    width: 100vw !important;
+  }
+
+  .reachusHeader h2 {
+    font-size: 30px;
+  }
+  .reachusHeader .reachHeaderHR {
+    margin-left: 30px;
+  }
+}

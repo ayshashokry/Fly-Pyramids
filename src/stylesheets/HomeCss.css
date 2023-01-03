@@ -1,0 +1,346 @@
+* {
+  box-sizing: border-box;
+}
+/********************************** home who we************/
+.who-we h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 137%;
+  /* or 41px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #eabb14;
+}
+.who-we p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 137%;
+  /* or 27px */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.who-we button {
+  background: #196497;
+  border-radius: 43px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* float: right; */
+
+  margin: auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height */
+
+  text-align: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+}
+
+.who-we button:hover {
+  background: #1f9fd9;
+  border-radius: 43px;
+  padding-left: 50px;
+  padding-right: 50px;
+  float: right;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height */
+  box-shadow: unset;
+  border: unset !important;
+  text-align: center;
+  color: #ffffff;
+}
+
+/***********************why-choose section */
+.why-choose h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 137%;
+  /* or 55px */
+  z-index: 1000;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #eabb14;
+}
+
+.why-choose {
+  /* background-image:  rgba(36, 52, 98, 0.77) ,url('../components/images/choose-bg.png'); */
+  background-image: url('../components/images/chooseUsBg.jpg');
+
+  width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* mix-blend-mode: multiply; */
+  /* position: relative; */
+}
+/* .over {
+  position: absolute;
+  background: rgba(36, 52, 98, 0.77);
+  mix-blend-mode: multiply;
+  width: 100%;
+  left: 0%;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
+  height: auto;
+} */
+
+.why-choose p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 137%;
+  /* or 27px */
+  z-index: 10000;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+/*********************cards***************************/
+.my-cards {
+  /* position: absolute;
+  bottom: -10px; */
+}
+.card1 {
+  border-radius: unset !important;
+}
+.card1 p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.card1 h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.card2 {
+  border-radius: unset !important;
+}
+.card2 p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+.card2 h6 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  letter-spacing: -0.02em;
+  color: #000;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover {
+  box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.44);
+}
+
+/**************************home our services*************/
+.home-services {
+  background-color: #f3f2f3;
+}
+.home-services h3 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 137%;
+  /* or 69px */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.home-services p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 137%;
+  /* or 34px */
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.home-services img {
+  /* width: auto;
+  height: auto; */
+}
+
+@media (max-width: 500px) {
+  .home-services img {
+    width: 300px;
+    height: auto;
+  }
+}
+.home-services button {
+  background: #eabb14;
+  border-radius: 43px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height */
+  border: none !important;
+  text-align: center;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  color: #196497;
+}
+
+.home-services button:hover,
+.home-services button:active {
+  background: #eabb14 !important;
+  border-radius: 43px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  /* identical to box height */
+  border: none !important;
+  text-align: center;
+  box-shadow: unset;
+  color: #196497 !important;
+}
+.home-services a:hover {
+  color: #196497;
+  text-decoration: unset !important;
+}
+
+/***********************wing *******************/
+.wing-section {
+  background-image: url('../components/images/ExploreFly-bg.png');
+  height: 160px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.wing-section h4 {
+  text-align: left;
+  padding-top: 80px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: -0.02em;
+  padding-left: 350px;
+  color: #1f9fd9;
+}
+
+.servButtons {
+  background-color: transparent !important;
+  border: none !important;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 137%;
+  /* identical to box height, or 22px */
+  /* color: white !important; */
+  letter-spacing: -0.02em;
+}
+.servButtons:focus {
+  box-shadow: unset !important;
+}
+.servButtons a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 137%;
+  /* identical to box height, or 22px */
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+.servButtons a:hover {
+  text-decoration: none;
+}
+.butnRow {
+  float: right;
+}
+@media (max-width: 700px) {
+  .wing-section {
+    background-image: url('../components/images/ExploreFly-bgMobile.png');
+    height: 160px;
+    width: 100vw;
+    background-repeat: no-repeat;
+  }
+  .wing-section h4 {
+    text-align: left;
+    padding-top: 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: -0.02em;
+    padding-left: 140px;
+    color: #1f9fd9;
+  }
+  .butnRow {
+    float: unset;
+    margin: auto;
+    text-align: center !important;
+  }
+}
+/**************fix cards 3chan btboz fl tablet size******************/
+
+@media (min-width: 578px) and (max-width: 1100px) {
+  .card-deck {
+    display: '-ms-flexbox';
+    display: inline !important;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}

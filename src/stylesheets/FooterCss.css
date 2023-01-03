@@ -1,0 +1,82 @@
+.footer {
+  background-image: url('../components/images/footerBG.png');
+  background-size: 100% 100%;
+  background-position: center;
+  padding-bottom: 5px !important;
+  margin-bottom: 0 !important;
+  color: #ffffff !important;
+}
+.reachout {
+  padding-left: 160px;
+}
+.reachout h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-style: normal;
+}
+
+.reachoutHR {
+  width: 190px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.reachout p {
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+.reachout .contactstitle {
+  font-weight: bold !important;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.socialicons {
+  float: right;
+  padding-right: 30px;
+}
+
+.socialicons i {
+  border-radius: 50% !important;
+  background-color: #196497;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.footer a {
+  color: #ffffff !important;
+}
+
+.socialicons .copyright {
+  color: #196497;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (max-width: 993px) {
+  .reachout {
+    padding-left: 20px !important;
+  }
+  .socialicons .copyright {
+    color: #fff;
+  }
+  .socialicons i {
+    background-color: #fff !important;
+    color: #196497 !important;
+  }
+
+  .footer {
+    background: url('../components/images/footerBGBlue.png');
+    margin-bottom: 0 !important;
+  }
+  .socialicons {
+    text-align: center;
+    float: unset;
+    margin-top: 25px;
+  }
+}
